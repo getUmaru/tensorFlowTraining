@@ -5,3 +5,4 @@ The figure below is my linear regression code at work, it randomly generates dat
 <img src='https://i.imgur.com/EVfahkT.png' />
 
 Not only that I made a pretty simple Neural Network with 200ish neurons that predicted the MNIST hand writing database of written numbers.
+<img src='https://i.imgur.com/gKxyWoX.png' />
