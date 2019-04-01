@@ -1,17 +1,14 @@
-""" Neural Network.
-A 2-Hidden Layers Fully Connected Neural Network (a.k.a Multilayer Perceptron)
-implementation with TensorFlow. This example is using the MNIST database
-of handwritten digits (http://yann.lecun.com/exdb/mnist/).
-Links:
-    [MNIST Dataset](http://yann.lecun.com/exdb/mnist/).
-Author: Aymeric Damien
-Project: https://github.com/aymericdamien/TensorFlow-Examples/
+""" 
+A 2-Hidden Layers Fully Connected Neural Network 
+[MNIST Dataset](http://yann.lecun.com/exdb/mnist/).
+Author: Umar Ali
+
 """
 
 from __future__ import print_function
 
 # Import MNIST data
-from tensorflow.examples.tutorials.mnist import input_data
+import input_data
 import matplotlib.pyplot as plt
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
